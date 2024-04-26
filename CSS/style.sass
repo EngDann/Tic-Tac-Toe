@@ -1,0 +1,83 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: cursive
+
+body
+    height: 100vh
+    background: #5B63B7
+    color: #FCF8FF
+header
+    display: flex
+    margin-left: 10%
+
+main
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+.container-main
+    display: flex
+    flex-direction: column
+    align-items: center
+    min-width: 400px
+    gap: 1rem
+    &-title
+        text-align: center
+        text-transform: uppercase
+        color: white
+        padding-bottom: 1rem
+        font-size: 3rem
+    &-game
+        display: grid
+        grid-template-columns: repeat(3,1fr)
+        border-top: 2px solid #5B63B7
+        padding-top: 1rem
+        transition: 0.5s
+        button
+            width: 100px
+            height: 100px
+            margin: 5px
+            cursor: pointer
+            font-size: 50px
+            background: #9296F0
+            box-shadow: 5px 5px 0 rgba(13, 4, 54, 0.5)
+            border: none
+            color: white
+            border-radius: 10%
+.alerts
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
+    .current_player
+        text-align: center
+        padding: 1rem
+    .btn-reset
+        transition: 0.4s
+        border: none
+        padding: 1rem
+        margin: 1.5rem
+        background-color: #9296F0
+        border-radius: 10%
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5)
+        cursor: pointer
+        &:hover
+            background-color: #5B63B7
+            padding: 1.5rem
+        &:focus
+            outline: none
+@media only screen and (max-width: 768px)
+    header
+        justify-content: center
+        padding: 2rem
+        margin-left: 0
+
+@media only screen and (max-width: 425px)
+    .container-main
+        min-width: 200px
+    .container-main-game
+        button
+            width: 90px
+            height: 90px

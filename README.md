@@ -4,26 +4,27 @@
 
 ## Description
 
-The "Tic Tac Toe" project is developed entirely in pure JavaScript, providing a simple implementation of the classic Tic Tac Toe game. Players can choose to play with individual winners or aim for a draw.
+"Tic Tac Toe" is a simple yet engaging project developed purely in JavaScript. This game allows for individual player wins or a draw if all squares are filled without any player completing a row vertically, horizontally, or diagonally.
 
 ## Technologies Used
 
--   **JavaScript**: Utilized for game logic and DOM manipulation.
--   **Sass**: Used for styling the game interface.
--   **HTML**: Structured for game layout and elements.
+- **JavaScript**: Core gameplay logic and DOM manipulation.
+- **Sass**: Used for styling and creating an engaging user interface.
+- **HTML**: Basic structure and layout.
 
 ## Features
 
--   **Winner Detection**: The game automatically detects when a player wins by completing a horizontal, vertical, or diagonal row.
--   **Draw Detection**: If all squares are filled and no player has achieved victory, the game ends in a draw.
+- **Single Turn Per Player**: Ensures fairness by allowing each player to play only once per turn.
+- **Winning Logic**: Players win by completing a row either horizontally, vertically, or diagonally.
+- **Draw Scenario**: A draw is declared if all squares are filled and no player has completed a row.
 
 ## Challenges and Learnings
 
-This project provided an opportunity to enhance skills in DOM manipulation and Sass styling, contributing to a deeper understanding of front-end development.
+This project was a valuable learning experience as it allowed me to deepen my understanding of DOM manipulation and Sass. Handling game logic and UI interactions in JavaScript was particularly enriching.
 
 ## How to Use
 
-To play "Tic Tac Toe", follow the steps below:
+To play "Tic Tac Toe", follow these steps:
 
 1. **Clone the repository**:
 
@@ -39,22 +40,24 @@ To play "Tic Tac Toe", follow the steps below:
 
 3. **Open the project**:
 
-    Open the `index.html` file in your preferred web browser.
+    You can open the project in any web browser of your choice. If using Visual Studio Code, you might use the Live Server extension to view the project live.
 
-The project requires no additional dependencies and can be played directly in a web browser.
+## Video
+
+https://github.com/EngDann/Tic-Tac-Toe/assets/137555908/ea2b6258-7608-4bf1-95ce-a06306d20e7c
 
 ## Contributions
 
-Contributions to this project are welcome! If you have suggestions for improvements, follow these steps to contribute:
+Contributions to this project are welcome! If you have suggestions for improvements, please follow these steps to contribute:
 
 1. **Fork the project**:
 
-    Click the "Fork" button at the top right corner of the repository page to create a copy of the project in your GitHub account.
+    Fork the repository to your GitHub account by clicking on the "Fork" button at the top right corner of the repository page.
 
 2. **Clone the fork**:
 
     ```bash
-    git clone https://github.com/your-username/Tic-Tac-Toe.git
+    git clone https://github.com/your-github-username/Tic-Tac-Toe.git
     ```
 
 3. **Create a new branch**:
@@ -65,7 +68,7 @@ Contributions to this project are welcome! If you have suggestions for improveme
 
 4. **Make your changes**:
 
-    Implement your desired changes to the project.
+    Modify, add, or remove whatever you think is necessary.
 
 5. **Commit your changes**:
 
@@ -81,36 +84,48 @@ Contributions to this project are welcome! If you have suggestions for improveme
 
 7. **Create a Pull Request**:
 
-    Go to the original repository page on GitHub. Click on "Pull Request" and then "New Pull Request". Select your branch and click "Create Pull Request". Add a description of your changes and submit the pull request.
+    Go to the original repository page you forked on GitHub. Click on "Pull Request" and then "New Pull Request". Select your branch and click "Create Pull Request". Describe the changes you made and submit.
+
+## Credits
+
+- Designed and developed by EngDann.
+
+## Contact
+
+To get in touch with me, feel free to:
+
+- Send an email to [danilodemeloribeiro0@gmail.com](mailto:danilodemeloribeiro0@gmail.com)
+- Connect via LinkedIn: [Danilo de Melo Ribeiro](https://www.linkedin.com/in/engdann/)
 
 ## License
 
-This project is licensed under the MIT License. You are free to use, modify, and distribute this project with proper attribution.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 # Portuguese
 
 ## Descrição
 
-O projeto "Tic Tac Toe" é desenvolvido inteiramente em JavaScript puro, fornecendo uma implementação simples do clássico jogo da velha. Os jogadores podem optar por jogar com vencedores individuais ou buscar um empate.
+O projeto "Tic Tac Toe" foi desenvolvido inteiramente em JavaScript puro e propicia um jogo da velha simples, onde é possível haver ganhadores individuais ou empate caso todos os quadrados sejam preenchidos sem que ninguém complete uma fileira na vertical, horizontal ou diagonal.
 
 ## Tecnologias Utilizadas
 
--   **JavaScript**: Utilizado para lógica do jogo e manipulação do DOM.
--   **Sass**: Usado para estilizar a interface do jogo.
--   **HTML**: Estruturado para o layout e elementos do jogo.
+- **JavaScript**: Lógica principal do jogo e manipulação do DOM.
+- **Sass**: Utilizado para estilizar e criar uma interface de usuário atrativa.
+- **HTML**: Estrutura básica e layout.
 
 ## Funcionalidades
 
--   **Detecção de Vencedor**: O jogo detecta automaticamente quando um jogador vence ao completar uma fileira horizontal, vertical ou diagonal.
--   **Detecção de Empate**: Se todos os quadrados estiverem preenchidos e nenhum jogador alcançou a vitória, o jogo termina em empate.
+- **Vez de Jogar Individual**: Garante a justiça permitindo que cada jogador jogue apenas uma vez por turno.
+- **Lógica de Vitória**: Jogadores vencem ao completar uma fileira na vertical, horizontal ou diagonal.
+- **Cenário de Empate**: Um empate é declarado se todos os quadrados estiverem preenchidos e nenhum jogador tiver completado uma fileira.
 
 ## Desafios e Aprendizados
 
-Este projeto proporcionou uma oportunidade de aprimorar habilidades em manipulação do DOM e estilização com Sass, contribuindo para uma compreensão mais profunda do desenvolvimento front-end.
+Este projeto foi uma experiência de aprendizado valiosa, pois me permitiu aprofundar meu entendimento sobre manipulação do DOM e Sass. Lidar com a lógica do jogo e interações de UI em JavaScript foi particularmente enriquecedor.
 
 ## Como Usar
 
-Para jogar "Tic Tac Toe", siga os passos abaixo:
+Para jogar "Tic Tac Toe", siga estes passos:
 
 1. **Clone o repositório**:
 
@@ -126,22 +141,24 @@ Para jogar "Tic Tac Toe", siga os passos abaixo:
 
 3. **Abra o projeto**:
 
-    Abra o arquivo `index.html` em seu navegador da web preferido.
+    Você pode abrir o projeto em qualquer navegador web de sua escolha. Se estiver usando o Visual Studio Code, pode usar a extensão Live Server para visualizar o projeto ao vivo.
 
-O projeto não requer dependências adicionais e pode ser jogado diretamente em um navegador da web.
+## Vídeo
+
+https://github.com/EngDann/Tic-Tac-Toe/assets/137555908/ea2b6258-7608-4bf1-95ce-a06306d20e7c
 
 ## Contribuições
 
-Contribuições para este projeto são bem-vindas! Se você tiver sugestões de melhorias, siga estes passos para contribuir:
+Contribuições para este projeto são bem-vindas! Se tiver sugestões para melhorias, por favor, siga estes passos para contribuir:
 
 1. **Faça um fork do projeto**:
 
-    Clique no botão "Fork" no canto superior direito da página do repositório para criar uma cópia do projeto em sua conta do GitHub.
+    Faça um fork do repositório para sua conta no GitHub clicando no botão "Fork" localizado no canto superior direito da página do repositório.
 
 2. **Clone o fork**:
 
     ```bash
-    git clone https://github.com/seu-nome-de-usuario/Tic-Tac-Toe.git
+    git clone https://github.com/seu-nome-de-usuario-no-github/Tic-Tac-Toe.git
     ```
 
 3. **Crie uma nova ramificação**:
@@ -152,7 +169,7 @@ Contribuições para este projeto são bem-vindas! Se você tiver sugestões de 
 
 4. **Faça suas alterações**:
 
-    Implemente as alterações desejadas no projeto.
+    Modifique, adicione ou remova o que achar necessário.
 
 5. **Faça commit das suas alterações**:
 
@@ -168,8 +185,19 @@ Contribuições para este projeto são bem-vindas! Se você tiver sugestões de 
 
 7. **Crie um Pull Request**:
 
-    Vá para a página do repositório original no GitHub. Clique em "Pull Request" e depois em "Novo Pull Request". Selecione sua ramificação e clique em "Criar Pull Request". Adicione uma descrição das suas alterações e envie o pull request.
+    Vá à página do repositório original que você fez fork no GitHub. Clique em "Pull Request" e depois em "Novo Pull Request". Selecione sua ramificação e clique em "Criar Pull Request". Descreva as alterações que você fez e envie.
+
+## Créditos
+
+- Desenvolvido por EngDann.
+
+## Contato
+
+Para entrar em contato comigo, sinta-se à vontade para:
+
+- Enviar um e-mail para [danilodemeloribeiro0@gmail.com](mailto:danilodemeloribeiro0@gmail.com)
+- Conectar-se via LinkedIn: [Danilo de Melo Ribeiro](https://www.linkedin.com/in/engdann/)
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT. Você tem permissão para usar, modificar e distribuir este projeto com atribuição apropriada.
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para detalhes.
